@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>توقعات المباريات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>توقعات المباريات</h1>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="matches.html">جدول المباريات</a>
+            <a href="news.html">الأخبار</a>
+            <a href="predictions.html">توقعات</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>اختر نتيحة المباراة:</h2>
+        <p>فريق A vs فريق B</p>
+        <button onclick="vote('فوز فريق A')">فوز فريق A</button>
+        <button onclick="vote('تعادل')">تعادل</button>
+        <button onclick="vote('فوز فريق B')">فوز فريق B</button>
+
+        <h3>نتيجة التصويت:</h3>
+        <p id="result">لا يوجد تصويت بعد.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
